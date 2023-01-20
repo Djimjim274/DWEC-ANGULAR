@@ -14,8 +14,7 @@ import { TodoModule } from './todo/todo.module';
   ],
   imports: [
     BrowserModule,
-   TodoModule
- 
+    TodoModule
   ],
   providers: [],
   bootstrap: [AppComponent]

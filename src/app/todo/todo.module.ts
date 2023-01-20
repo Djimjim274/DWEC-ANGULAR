@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { EntradaComponent } from "./entrada/EntradaComponent";
 import { ListadoComponent } from './listado/listado.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -11,6 +12,7 @@ import { ListadoComponent } from './listado/listado.component';
     ListadoComponent
   ],
   imports: [
+    FormsModule,
     CommonModule
   ],
   exports:[

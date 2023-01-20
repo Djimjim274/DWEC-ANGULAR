@@ -1,6 +1,11 @@
-import { OnInit } from "@angular/core";
-import { TareasService } from "../tareas.service";
+import { Component, OnInit } from '@angular/core';
+import { TareasService } from '../tareas.service';
 
+@Component({
+  selector: 'app-listado',
+  templateUrl: './listado.component.html',
+  styleUrls: ['./listado.component.css']
+})
 export class ListadoComponent implements OnInit {
   private _tareas: string[] = [];
   constructor(private servicioTareas: TareasService) {}
